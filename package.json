@@ -1,0 +1,25 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "Cool book app",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/183Natasha/project-js)"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "NatashaMartynova",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0",
+    "rollup": "^4.32.1"
+  }
+}
