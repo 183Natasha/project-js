@@ -5,10 +5,10 @@
   "main": "app.js",
   "scripts": {
     "start": "live-server",
-    "build": "rollup"
+    "build": "rollup -c --watch"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "(https://github.com/183Natasha/project-js)"
   },
   "keywords": [
@@ -18,8 +18,13 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.19.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "eslint": "^9.19.0",
     "globals": "^15.14.0",
-    "rollup": "^4.32.1"
+    "rollup": "^4.32.1",
+    "rollup-plugin-import-css": "^3.5.8"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }
