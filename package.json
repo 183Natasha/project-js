@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Cool book app",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "live-server",
     "build": "rollup -c --watch"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "(https://github.com/183Natasha/project-js)"
   },
   "keywords": [
