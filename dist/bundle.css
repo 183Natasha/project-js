@@ -21,6 +21,10 @@
     text-decoration: none;
 }
 
+.menu__item:visited {
+	color: var(--black);
+}
+
 .menu__counter{
     font-weight: 600;
 	font-size: 12px;
