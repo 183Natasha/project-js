@@ -33,7 +33,7 @@ export class Search extends DivComponent{
 			if (event.code === 'NumpadEnter') {
 				this.search()
 			}
-            console.log(event)
+            // console.log(event)
 		})
 
         return this.el;
