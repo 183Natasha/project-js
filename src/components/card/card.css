@@ -60,6 +60,6 @@
     cursor: pointer;
 }
 
-.utton__active{
+.button__active{
     background-color: var(--white);
 }
